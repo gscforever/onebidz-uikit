@@ -2089,11 +2089,9 @@ var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __ma
     return theme.mediaQueries.nav;
 });
 var Logo = function (_a) {
-    var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
+    var isPushed = _a.isPushed, togglePush = _a.togglePush; _a.isDark; var href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
-    var innerLogo = (React.createElement(React.Fragment, null,
-        React.createElement(Icon$P, { className: "mobile-icon" }),
-        React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
+    var innerLogo = (React.createElement(React.Fragment, null, "Onebidz"));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$u, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$v, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
@@ -2201,7 +2199,7 @@ var links = [
             // },
             {
                 label: "Github",
-                href: "https://github.com/ditoswap/",
+                href: "https://github.com/gscforever/",
             },
             {
                 label: "Docs",
@@ -2276,7 +2274,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/changwa18111087",
+        href: "https://twitter.com/eCv8cDmL3LLpXif",
     },
     // {
     //   label: "Reddit",

@@ -99,7 +99,7 @@ export const links = [
       // },
       {
         label: "Github",
-        href: "https://github.com/ditoswap/",
+        href: "https://github.com/gscforever/",
       },
       {
         label: "Docs",
@@ -180,7 +180,7 @@ export const socials: {
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/changwa18111087",
+    href: "https://twitter.com/eCv8cDmL3LLpXif",
   },
   // {
   //   label: "Reddit",
