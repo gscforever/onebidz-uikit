@@ -101,14 +101,14 @@ export const links = [
         label: "Github",
         href: "https://github.com/gscforever/",
       },
-      {
-        label: "Docs",
-        href: "https://ditoswap.gitbook.io/dito-swap/",
-      },
-      {
-        label: "Blog",
-        href: "https://medium.com/@ditoswap",
-      },
+      // {
+      //   label: "Docs",
+      //   href: "https://ditoswap.gitbook.io/dito-swap/",
+      // },
+      // {
+      //   label: "Blog",
+      //   href: "https://medium.com/@ditoswap",
+      // },
     ],
   },
 ];
