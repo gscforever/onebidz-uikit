@@ -343,8 +343,8 @@ var Icon$Q = function (props) {
 };
 
 var Icon$P = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: props.className === "mobile-icon" ? "0 0 45 30" : "0 0 60 40" }, props),
-        React.createElement("image", { width: props.className === "mobile-icon" ? "45" : "60", height: props.className === "mobile-icon" ? "30" : "40", href: "/images/onebidz/logo.png" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
+        React.createElement("image", { width: "32", height: "32", href: "/images/onebidz/9.png" })));
 };
 
 var Icon$O = function (props) {
@@ -2089,11 +2089,11 @@ var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __ma
     return theme.mediaQueries.nav;
 });
 var Logo = function (_a) {
-    var isPushed = _a.isPushed, togglePush = _a.togglePush; _a.isDark; var href = _a.href;
+    var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
     var innerLogo = (React.createElement(React.Fragment, null,
         React.createElement(Icon$P, { className: "mobile-icon" }),
-        React.createElement(Icon$P, { className: "desktop-icon" })));
+        React.createElement(Logo$1, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$u, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$v, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
