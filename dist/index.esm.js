@@ -2091,7 +2091,8 @@ var StyledLink = styled(Link$1)(templateObject_1$c || (templateObject_1$c = __ma
 var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush; _a.isDark; var href = _a.href;
     var isAbsoluteUrl = href.startsWith("http");
-    var innerLogo = (React.createElement(React.Fragment, null, "Onebidz"));
+    var innerLogo = (React.createElement(React.Fragment, null,
+        React.createElement(Icon$P, null)));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$u, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$v, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Pancake home page" }, innerLogo))));
