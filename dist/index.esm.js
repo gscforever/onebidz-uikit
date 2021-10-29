@@ -344,7 +344,7 @@ var Icon$Q = function (props) {
 
 var Icon$P = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React.createElement("image", { width: "32", height: "32", href: "/images/onebidz/9.png" })));
+        React.createElement("image", { width: "32", height: "32", href: "/images/onebidz/hero.png" })));
 };
 
 var Icon$O = function (props) {
@@ -1875,7 +1875,7 @@ var Icon$q = function (props) {
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement(Svg, __assign({ viewBox: "0 0 240 50" }, props),
-        React.createElement("image", { width: "240", height: "50", href: isDark ? "/images/onebidz/LogoTextNewDark.png" : "/images/onebidz/LogoTextNewWhite.png" })));
+        React.createElement("image", { width: "100", height: "50", href: isDark ? "/images/onebidz/LogoTextNewDark.png" : "/images/onebidz/LogoTextNewWhite.png" })));
 };
 
 var Icon$p = function (props) {
