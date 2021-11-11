@@ -2289,7 +2289,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/eCv8cDmL3LLpXif",
+        href: "https://twitter.com/OneBidz",
     },
     // {
     //   label: "Reddit",
